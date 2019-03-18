@@ -9,6 +9,5 @@
     "test": "truffle test",
     "watch": "npm-watch"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
