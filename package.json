@@ -2,7 +2,7 @@
   "requires": true,
   "lockfileVersion": 1,
   "devDependencies": {
-    "truffle": "^4.0.0"
+    "truffle": "^5.0.2"
   },
   "scripts": {
     "pretest": "truffle compile",

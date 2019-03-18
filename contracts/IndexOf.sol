@@ -5,7 +5,7 @@
  * https://creativecommons.org/licenses/by-sa/3.0/
  */
 
-pragma solidity 0.4.24;
+ pragma solidity 0.5.0;
 
 contract IndexOf {
     /**
@@ -18,6 +18,6 @@ contract IndexOf {
      * @param needle The string to search for.
      * @return The index of `needle` in `haystack`, or -1 if not found.
      */
-    function indexOf(string haystack, string needle) public pure returns(int) {
+    function indexOf(string memory haystack, string memory needle) public pure returns(int) {
     }
 }

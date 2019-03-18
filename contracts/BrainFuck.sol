@@ -5,7 +5,7 @@
  * https://creativecommons.org/licenses/by-sa/3.0/
  */
 
-pragma solidity 0.4.24;
+ pragma solidity 0.5.0;
 
 contract BrainFuck {
     /**
@@ -24,6 +24,6 @@ contract BrainFuck {
      * @return The program's output stream. Should be exactly the length of the
      *          number of outputs produced by the program.
      */
-    function execute(bytes program, bytes input) public pure returns(bytes) {
+    function execute(bytes memory program, bytes memory input) public pure returns(bytes memory) {
     }
 }

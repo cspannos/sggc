@@ -5,7 +5,7 @@
  * https://creativecommons.org/licenses/by-sa/3.0/
  */
 
-pragma solidity 0.4.24;
+pragma solidity 0.5.0;
 
 contract Sort {
     /**
@@ -16,6 +16,7 @@ contract Sort {
      * @param input The list of integers to sort.
      * @return The sorted list.
      */
-    function sort(uint[] input) public pure returns(uint[]) {
+    function sort(uint[] memory input) public pure returns(uint[] memory) {
+      return input;
     }
 }

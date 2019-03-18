@@ -5,7 +5,7 @@
  * https://creativecommons.org/licenses/by-sa/3.0/
  */
 
-pragma solidity 0.4.24;
+ pragma solidity 0.5.0;
 
 contract HexDecoder {
     /**
@@ -17,6 +17,6 @@ contract HexDecoder {
      * @param input The hex-encoded input.
      * @return The decoded output.
      */
-    function decode(string input) public pure returns(bytes output) {
+    function decode(string memory input) public pure returns(bytes memory output) {
     }
 }

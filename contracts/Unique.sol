@@ -5,7 +5,7 @@
  * https://creativecommons.org/licenses/by-sa/3.0/
  */
 
-pragma solidity 0.4.24;
+ pragma solidity 0.5.0;
 
 contract Unique {
     /**
@@ -17,6 +17,6 @@ contract Unique {
      * @param input The list of integers to uniquify.
      * @return The input list, with any duplicate elements removed.
      */
-    function uniquify(uint[] input) public pure returns(uint[] ret) {
+    function uniquify(uint[] memory input) public pure returns(uint[] memory ret) {
     }
 }
